@@ -13,7 +13,6 @@ module load singularity/3.6.3
 
 source /home/rraborn/genome_analysis/GoSTRIPES/bin/xworkStripes -b /home/rraborn/scratch/GoSTRIPES_ADtest/STRIPES -i /home/rraborn/scratch/GoSTRIPES_ADtest/STRIPES/gostripes.simg
 
-
 echo "Launching job"
 
 cd $myDir/$sampleFolder
