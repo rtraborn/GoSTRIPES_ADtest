@@ -5,13 +5,14 @@
 #SBATCH -A rraborn
 #SBATCH -o slurm.%j.out
 #SBATCH -e slurm.%j.err
+#SBATCH -p fn2
 
-myDir=/home/rraborn/scratch/GoSTRIPES_ADtest/STRIPES/
+myDir=/scratch/rraborn/GoSTRIPES_ADtest/STRIPES/
 sampleFolder=ASUP35
 
 module load singularity/3.6.3
 
-source /home/rraborn/genome_analysis/GoSTRIPES/bin/xworkStripes -b /home/rraborn/scratch/GoSTRIPES_ADtest/STRIPES -i /home/rraborn/scratch/GoSTRIPES_ADtest/STRIPES/gostripes.simg
+source /home/rraborn/genome_analysis/GoSTRIPES/bin/xworkStripes -b /scratch/rraborn/GoSTRIPES_ADtest/STRIPES -i /scratch/rraborn/GoSTRIPES_ADtest/STRIPES/gostripes.simg
 
 echo "Launching job"
 
