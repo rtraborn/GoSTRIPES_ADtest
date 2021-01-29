@@ -1,3 +1,6 @@
+## GoSTRIPES_ADtest
+### Running a test of the AD_STRIPE data
+
 ### Instructions for setting up GoSTRIPEs analysis using Singularity
 
 0. Follow instructions on GoSTRIPEs: https://github.com/BrendelGroup/GoSTRIPES/blob/master/HOWTO.md
